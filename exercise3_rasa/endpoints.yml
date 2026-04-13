@@ -39,7 +39,7 @@ model_groups:
         api_key: ${NEBIUS_KEY}
         temperature: 0.1
         max_tokens: 512
-        timeout: 30
+        timeout: 120
 
   - id: nebius_embeddings
     models:
